@@ -1,3 +1,6 @@
+[![Latest Stable Version](https://img.shields.io/packagist/v/deanblackborough/laravel-view-helpers.svg?style=flat-square)](https://packagist.org/packages/deanblackborough/laravel-view-helpers)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/deanblackborough/php-quill-renderer/blob/master/LICENSE)
+
 # Laravel view helpers
 
 A Collection of general and bootstrap specific view helpers.
