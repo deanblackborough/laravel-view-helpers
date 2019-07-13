@@ -44,7 +44,7 @@ first to last and a select menu with paging limits.
             'anchor' => '#section-to-jump-to', // Optional named anchor [string|null]
         ],
         'count_prefix' => 'Expenses', // Optional prefex for from:to [string|null]
-        'css_classes' [
+        'css_classes' => [
             'left' => ' col-9 col-sm-10 col-xl-11', // Class for left container [string|null]
             'right' => ' col-3 col-sm-2 col-xl-1', // Classes for right container [string|null]
         ]
