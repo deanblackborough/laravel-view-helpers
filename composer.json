@@ -1,0 +1,32 @@
+{
+    "name": "deanblackborough/laravel-view-helpers",
+    "description": "Collection of general and bootstrap specific view helpers for use in laravel blades",
+    "authors": [
+        {
+            "name": "Dean Blackborough",
+            "email": "dean@g3d-development.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DBlackborough\\ViewHelpers\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/deanblackborough/laravel-view-helpers"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DBlackborough\\ViewHelpers\\ViewHelpersServiceProvider"
+            ]
+        }
+    }
+}
