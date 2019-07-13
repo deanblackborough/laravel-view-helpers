@@ -1,6 +1,9 @@
 {
     "name": "deanblackborough/laravel-view-helpers",
     "description": "Collection of general and bootstrap specific view helpers for use in laravel blades",
+    "keywords": [
+        "laravel", "blade view helpers", "bootstrap"
+    ],
     "authors": [
         {
             "name": "Dean Blackborough",
