@@ -5,6 +5,7 @@ The complete changelog, follows the format defined at https://keepachangelog.com
 ## [v1.00.3] - 2019-07-30
 ### Fixed
 - Parameter's without values are being added to pagination URIs.
+- Spelling error in CHANGELOG.
 
 ## [v1.00.2] - 2019-07-20
 ### Added
