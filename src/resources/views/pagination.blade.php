@@ -1,7 +1,9 @@
 @php $parameters = ''; @endphp
 
 @foreach ($uri['parameters'] as $field => $value)
-    @php $parameters .= '&' . $field . '=' . $value; @endphp
+    @if (strlen(trim($value)) > 0)
+        @php $parameters .= '&' . $field . '=' . $value; @endphp
+    @endif
 @endforeach
 
 <div class="table-pagination p-3">
